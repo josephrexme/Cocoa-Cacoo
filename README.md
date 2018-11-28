@@ -1,6 +1,6 @@
-# Nollywood DB Project
+# Cocoa Cacoo App
 
-The nollywoodDB project as a React.js product.
+Cacoo Sample App.
 
 ## Dependencies
 - React 17.0
