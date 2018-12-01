@@ -21,7 +21,7 @@ const Navigation = () => (
   <NavStyle>
     <h1>Manage Cacoo</h1>
     <div>
-      <span>me@gmail.com</span>
+      <span>Me</span>
       <Link to="/logout">Logout</Link>
     </div>
   </NavStyle>

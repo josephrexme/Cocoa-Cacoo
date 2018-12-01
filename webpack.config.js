@@ -82,7 +82,7 @@ const config = {
       favicon: 'public/favicon.ico',
       appMountId: 'app',
     }),
-    new webpack.EnvironmentPlugin(['NODE_ENV', 'HOST']),
+    new webpack.EnvironmentPlugin(['NODE_ENV', 'HOST', 'CACOO_API']),
   ].concat(prodPlugins)
 };
 

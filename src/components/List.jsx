@@ -10,9 +10,28 @@ const List = styled.ul`
     background: #ffffff;
     border: solid thin #bbb;
     border-bottom: 0;
-    padding: 10px 20px;
+    ${props => props.padded && css`padding: 20px`}
     &:last-of-type{
       border-bottom: solid thin #bbb;
+    }
+  }
+  summary {
+    padding: 10px 20px;
+    &::-webkit-details-marker{
+      display: none;
+    }
+    &:focus{
+      outline: solid thin #aaa;
+    }
+  }
+  details {
+    > div {
+      border-top: solid thin #bbb;
+      padding: 10px;
+      background: #f5f5f5;
+      h4 {
+        margin-top: 0;
+      }
     }
   }
 `;
