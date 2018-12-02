@@ -35,6 +35,11 @@ class Projects extends Component {
       });
   }
 
+  /* eslint-disable  */
+  multiply(a, b) {
+    return a * b;
+  }
+
   deleteDiagram(diagram) {
     const { diagramList } = this.state;
     this.setState({
